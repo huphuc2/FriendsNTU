@@ -9,10 +9,10 @@ public class Controller extends Application implements IController {
     ArrayList<Friends> listFriends = new ArrayList<>();
 
     public Controller() {
-        listFriends.add(new Friends("Thu Cúc", 14/02/1990, 090123456));
-        listFriends.add(new Friends("Thu Đủ", 8/3/1991, 090123456));
-        listFriends.add(new Friends("Thu Tiền", 30/4/1990, "Le chau Phi"));
-        listFriends.add(new Friends("Minh Thảo", 80000, "Le chau Phi"));
+        listFriends.add(new Friends("Thu Cúc", "14/02/1990", "090123456"));
+        listFriends.add(new Friends("Thu Đủ", "8/03/1991", "090123456"));
+        listFriends.add(new Friends("Thu Tiền", "30/04/1990", "0991231123"));
+        listFriends.add(new Friends("Minh Thảo", "28/04/1990", "0988111231"));
     }
 
     @Override
